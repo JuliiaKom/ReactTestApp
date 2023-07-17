@@ -1,0 +1,9 @@
+main {
+    height: 500px;
+    border: 2px solid blue;
+     display: flex;
+     justify-content: space-between;
+}
+main div.container {
+    background-color: aqua;
+}

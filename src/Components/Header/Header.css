@@ -1,0 +1,7 @@
+header {
+    height: 80px;
+    border: 2px solid red;
+}
+header img {
+    width: 50px;
+}

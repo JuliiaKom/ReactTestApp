@@ -1,0 +1,16 @@
+nav {
+    display: inline;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    padding: 20px;
+}
+nav a:hover {
+    color: green;
+}
