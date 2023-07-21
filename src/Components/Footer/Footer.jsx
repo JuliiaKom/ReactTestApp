@@ -10,7 +10,6 @@ const Footer = () => {
                 <img src={icon2} alt= "icon"/>
                 <img src={icon3} alt= "icon"/>
             </div>
-
         </footer>
     )
 }
