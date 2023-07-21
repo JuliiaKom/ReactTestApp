@@ -1,6 +1,9 @@
 import logo from "../images/logo.jpg";
 import photo from "../images/photo.jpg";
 import photo1 from "../images/photo1.jpg";
+import icon from "../images/post.png";
+import icon2 from "../images/facebook.png";
+import icon3 from "../images/instagram.png";
 
 let data  = {
     header: {
@@ -24,6 +27,9 @@ let data  = {
             }
     },
     footer: {
+            icon: icon,
+            icon2: icon2,
+            icon3: icon3,
 
     }
 }
