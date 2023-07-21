@@ -1,0 +1,13 @@
+nav {
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4d64ff;
+    transition: 0.2s;
+    padding: 20px;
+}
+nav a:hover {
+    color: green;
+}
