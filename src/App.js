@@ -4,12 +4,12 @@ import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 
 
-const App = () => {
+const App = (props) => {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header data = {props.data.header}/>
+      <Main data = {props.data.main} />
+      <Footer data = {props.data.footer}/>
     </div>
   );
 }

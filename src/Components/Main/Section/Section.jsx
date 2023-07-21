@@ -1,7 +1,13 @@
 import "./Section.css"
-const Section = () => {
+
+const Section = (props) => {
     return (
-        <section>section</section>
+        <section>
+            <div className= "photo">
+                <img src={props.section.photo} alt= "photo"/>
+                <img src={props.section.photo1} alt= "photo1"/>
+            </div>
+        </section>
     )
 }
 export default Section;

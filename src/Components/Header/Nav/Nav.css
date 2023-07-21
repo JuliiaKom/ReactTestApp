@@ -1,13 +1,10 @@
 nav {
-    display: inline;
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
+    font-size: 30px;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #4d64ff;
     transition: 0.2s;
     padding: 20px;
 }

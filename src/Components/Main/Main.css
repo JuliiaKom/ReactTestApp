@@ -1,9 +1,17 @@
 main {
     height: 500px;
-    border: 2px solid blue;
-     display: flex;
-     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 main div.container {
-    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 140px;
+    font-size: 40px;
+}
+main button {
+    background-color: #4d64ff;
+    padding: 15px;
+    border: none;
+    color: white;
 }

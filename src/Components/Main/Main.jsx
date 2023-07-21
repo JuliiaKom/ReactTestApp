@@ -1,14 +1,14 @@
  import "./Main.css";
 import Button from "../Button/Button";
 import Section from "./Section/Section";
-const Main = () => {
+const Main = (props) => {
     return (
         <main>
             <div className = 'container'>
-                <h1>Discover The World</h1>
+                <h1>{props.data.titles.main}</h1>
                 <Button/>
             </div>
-            <Section/>
+            <Section section={props.data.section}/>
         </main>
     )
 }

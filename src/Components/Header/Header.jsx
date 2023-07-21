@@ -1,12 +1,12 @@
- import "./Header.css";
- import Nav from "./Nav/Nav";
- import logo from "../../images/logo.jpg"
+import "./Header.css";
+import Nav from "./Nav/Nav"
 
-const Header = () => {
+const Header = (props) => {
+    console.log(props)
     return (
         <header>
-            <img src={logo} alt= "logo"/>
-           <Nav/>
+            <img src={props.data.logo} alt= "logo"/>
+            <Nav data={props.data}/>
         </header>
     )
 }

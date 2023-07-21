@@ -1,12 +1,12 @@
  import "./Nav.css"
-const Nav = () => {
+
+ const Nav = (props) => {
     return (
-<nav>
-    <a href = "#">About</a>
-    <a href = "#">Tour</a>
-    <a href = "#">Gallery</a>
-    <a href = "#">Contact</a>
-</nav>
+        <nav>
+            {
+                props.data.nav.map(el => <a href = {el.link}>{el.text}</a> )
+            }
+        </nav>
     )
 }
 export default Nav;
