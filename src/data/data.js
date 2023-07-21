@@ -20,7 +20,7 @@ let data  = {
         },
         titles:
             {
-                main: '213123213213'
+                main: 'Discover The World'
             }
     },
     footer: {
