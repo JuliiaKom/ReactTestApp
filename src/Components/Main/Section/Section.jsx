@@ -1,13 +1,12 @@
 import "./Section.css"
+import MyImg from './MyImg'
 
 const Section = (props) => {
     return (
         <section>
-            <div className= "photo">
-                <img src={props.section.photo} alt= "photo"/>
-                <img src={props.section.photo1} alt= "photo1"/>
-            </div>
+            <MyImg/>
         </section>
+
     )
 }
 export default Section;
