@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactTestApp/static/css/main.916f31de.css",
-    "main.js": "/ReactTestApp/static/js/main.755097c5.js",
+    "main.css": "/ReactTestApp/static/css/main.4033b403.css",
+    "main.js": "/ReactTestApp/static/js/main.f6a03aff.js",
     "static/media/1.webp": "/ReactTestApp/static/media/1.a7681e10388cfd5ea1bc.webp",
+    "static/media/img2.jpg": "/ReactTestApp/static/media/img2.922b8ff047b8999d895f.jpg",
+    "static/media/img3.jpg": "/ReactTestApp/static/media/img3.c4462b62d84fb946207b.jpg",
+    "static/media/img1.jpg": "/ReactTestApp/static/media/img1.8796ef3e0da0ed20c326.jpg",
+    "static/media/img5.jpg": "/ReactTestApp/static/media/img5.5858cd20cf974d935263.jpg",
+    "static/media/img4.jpg": "/ReactTestApp/static/media/img4.37f87937e4b9ad6d9f75.jpg",
+    "static/media/arrow-right.png": "/ReactTestApp/static/media/arrow-right.8f6e2b77ad8447b62d67.png",
+    "static/media/arrow-left (1).png": "/ReactTestApp/static/media/arrow-left (1).2f493f04681adcf3f0aa.png",
     "static/media/photo1.jpg": "/ReactTestApp/static/media/photo1.69c1801f63bee40b6a81.jpg",
     "index.html": "/ReactTestApp/index.html",
-    "main.916f31de.css.map": "/ReactTestApp/static/css/main.916f31de.css.map",
-    "main.755097c5.js.map": "/ReactTestApp/static/js/main.755097c5.js.map"
+    "main.4033b403.css.map": "/ReactTestApp/static/css/main.4033b403.css.map",
+    "main.f6a03aff.js.map": "/ReactTestApp/static/js/main.f6a03aff.js.map"
   },
   "entrypoints": [
-    "static/css/main.916f31de.css",
-    "static/js/main.755097c5.js"
+    "static/css/main.4033b403.css",
+    "static/js/main.f6a03aff.js"
   ]
 }
